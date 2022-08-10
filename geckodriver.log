@@ -1,0 +1,57 @@
+1651992643209	geckodriver	INFO	Listening on 127.0.0.1:53630
+1651992646274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofiles9ammM"
+1651992647063	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofiles9ammM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53631/devtools/browser/06701cdc-c36b-4e80-9af0-7dfa0dcacabe
+1651992652577	Marionette	INFO	Listening on port 53657
+Read port: 53657
+1651992652770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651992732471	Marionette	INFO	Stopped listening on port 53657
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1651992849426	geckodriver	INFO	Listening on 127.0.0.1:53707
+1651992852512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53708" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilehqQWY4"
+1651992853302	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofilehqQWY4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53708/devtools/browser/c5666c80-9740-4e7f-a71f-dbb473c62023
+1651992858071	Marionette	INFO	Listening on port 53733
+Read port: 53733
+1651992858145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651992905073	Marionette	INFO	Stopped listening on port 53733
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1651993931847	geckodriver	INFO	Listening on 127.0.0.1:54437
+1651993934922	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54438" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileZFjEei"
+1651993936053	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owner\\AppData\\Local\\Temp\\rust_mozprofileZFjEei\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54438/devtools/browser/278e121e-8dd8-4e34-b177-f916121e3a50
+1651993940557	Marionette	INFO	Listening on port 54468
+Read port: 54468
+1651993940713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651993963870	Marionette	INFO	Stopped listening on port 54468
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
